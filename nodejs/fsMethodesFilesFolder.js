@@ -28,5 +28,12 @@ fs.rmdir("./mondossier", (err) => {});
 fs.readdir("./mondossier", (err, files) => {
   console.log(files);
 });
-
 // Il récupère dans un array les fichiers dans un dossier
+
+fs.copyFile("./fichieracopier.txt", "./fichiercpy.txt", (err) => {});
+// permet de copier un fichier dans un autre fichier
+
+fs.stat("./fichier.txt", (err, stat) => {
+  console.log(stat);
+});
+// Permet de récupérer des informations sur un fichier
