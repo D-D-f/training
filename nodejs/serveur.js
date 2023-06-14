@@ -19,6 +19,7 @@ server.on("request", (req, res) => {
       "content-types": "text/html",
     });
     fileContent = fs.readFileSync("./info.html", "utf-8");
+    fileContent = fileContent.replace("{{name}}", "David");
   } else {
     res.writeHead(404, {
       "content-types": "text/html",
