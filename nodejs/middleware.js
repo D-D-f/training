@@ -9,7 +9,7 @@ app.set("view engine", "ejs");
 
 const getUser = (req, res, next) => {
   req.user = {
-    name: "toto",
+    name: "david",
     authenticated: false,
   };
   next();
