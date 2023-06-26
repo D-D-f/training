@@ -34,6 +34,18 @@ app.use("/index", getUser, isAuthenticated);
 // je peux ajouter ou enlever en premier parametre un chemin
 // app.get('*", middleware) cela ciblera toutes les requetes get
 
+app
+  .route("/user/:userId")
+  .get((req, res) => {
+    res.send("user");
+  })
+  .put((req, res) => {
+    res.send("user");
+  })
+  .delete((req, res) => {
+    res.send("user");
+  });
+
 app.post("/index", (req, res) => {
   console.log(req.body);
   res.render("ok");
