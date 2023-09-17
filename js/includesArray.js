@@ -19,5 +19,5 @@ const includesArray = (arr, elem) => {
   return include;
 };
 
-const incl = includesArray(["David", "Michel", "Melvyn"], "Michel");
+const incl = includesArray(["David", "Michel", "Rocky"], "Michel");
 console.log(incl());
