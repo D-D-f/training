@@ -20,4 +20,4 @@ const caculLengthString = (name) => {
 };
 
 const nameLength = caculLengthString("david");
-console.log(nameLength()); // 5
+console.log(nameLength());
