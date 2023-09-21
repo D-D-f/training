@@ -10,4 +10,4 @@ class Person {
 
 const perso = new Person("David");
 
-console.log(perso.reversedName);
+console.log(perso.reversedName); // divaD
