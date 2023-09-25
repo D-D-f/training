@@ -1,1 +1,1 @@
-# training
+# training nodejs & js
