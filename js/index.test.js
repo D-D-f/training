@@ -4,3 +4,5 @@ describe('Run test démo', () => {
         expect(a).toBe(4);
     })
 })
+
+// Permet de vérifié si le résultat obtenu est bien celui attendu
